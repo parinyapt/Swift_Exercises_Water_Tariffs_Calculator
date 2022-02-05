@@ -83,7 +83,7 @@ subtotal = volume * rate
 subtotal = type == 2 && subtotal < 90 ? 90 : subtotal
 vat = subtotal * 0.07
 total = subtotal + vat
-
+//output
 print("""
 -------------WATER TARIFFS-------------
 Type : \(type)
